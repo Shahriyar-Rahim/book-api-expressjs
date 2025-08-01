@@ -49,9 +49,9 @@ You will need the following software installed on your machine:
     ```sh
     npm install
     ```
-4.  Create a `.env` file in the root directory and add your MongoDB connection string.
+4.  Create a `.env` file in the root directory and add your localhost port.
     ```
-    MONGO_URI="your_mongodb_connection_string"
+    PORT = 8080
     ```
 5.  Run the server
     ```sh
